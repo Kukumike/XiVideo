@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 17, 2016, 2:28:49 PM
+    Author     : crescent
+*/
+
+.g-cell{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.l-pad-vert-3, .timeline__item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.poster-card {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    transition: box-shadow .2s cubic-bezier(0,.2,.4,1);
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0 rgba(156,156,156,0.5);
+    display: block;
+}
+.poster-card .poster-card__main {
+    display: block;
+}
+.poster-card .poster-card__header {
+    position: relative;
+    line-height: 0;
+}.poster-card .poster-card__header::before {
+    display: block;
+    content: "\00A0";
+    width: 100%;
+    padding-top: 50%;
+}.poster-card .poster-card__header .poster-card__image {
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}.poster-card .poster-card__header .poster-card__image img {
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+}.poster-card .poster-card__header .poster-card__label {
+    background-color: #fff;
+    background-color: hsla(0,0%,100%,.85);
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+    color: #282c35;
+    box-sizing: border-box;
+    padding: 2px 10px;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    right: 10px;
+}.poster-card .poster-card__header::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    display: block;
+    content: "\00A0";
+    width: 100%;
+    background: #eff2f5;
+}.poster-card .poster-card__body {
+    padding: 5px 15px;
+}.poster-card .poster-card__body .poster-card__date {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    color: #45494e;
+    font-size: 12px;
+    line-height: 18px;
+    height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 0 0;
+}.poster-card .poster-card__body .poster-card__title {
+    display: block;
+    display: -webkit-box;
+    margin: 0 auto;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #282c35;
+    font-size: 12px;
+line-height: 16px;
+    max-height: 38px;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 0;
+    height: 38px;
+}.poster-card .poster-card__body .poster-card__venue {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #666a73;
+    font-size: 12px;
+    line-height: 18px;
+    height: 25px;
+    padding: 5px 0 0;
+}
+
+a:focus, a:hover{
+    text-decoration: none;
+}
+
+
+
+.header__subnav--visible {
+    display: block;
+}
+.header__subnav {
+    padding: 0 0 0 30px;
+}
+.header__subnav {
+    background-color: #fff;
+    border-top: 1px solid #D7D7D7;
+    box-shadow: 0px 2px 4px 0 rgba(156,156,156,0.5);
+    height: 46px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+.header__subnav__item--overview {
+    color: #000;
+    padding-top: 3px;
+    margin-left: -10px;
+}
+.header__subnav__item {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+    height: 46px;
+    margin-right: 30px;
+    border-bottom: 2px solid transparent;
+}
+.header__subnav__item--active {
+    border-color: #4285F4;
+}
+.header__subnav .header__link {
+    margin-top: 4px;
+}
+.header__link {
+    color: #757575;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.input-group{
+    margin-top: 21px;
+}
+.input-group .form-control{
+    height: 26.3px;
+}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group{
+    height: 26.3px;
+    padding: 0px 5px;
+}
+.input-group .form-control{
+    padding: 0px 5px;
+    font-size: 13px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.ryhmes-search{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.ryhmes-search .input-group{
+    width: 270px;
+}
+.top-muzik{
+    margin-top: -20px;
+}
+
+
+@media(max-width: 767px){
+    .ryhmes-search, .ryhmes-search .input-group{
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .ryhmes-search, .ryhmes-search .input-group{
+        width: 100%;
+    }
+}

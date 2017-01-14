@@ -1,0 +1,342 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 16, 2016, 10:45:50 PM
+    Author     : crescent
+*/
+
+body{
+    padding-top: 70px;
+    color: #292f33;
+}
+.media-object {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #ccc;
+    text-align: center;
+}
+.list-group-item {
+    padding: 5px 0;
+    border: none;
+}
+.list-group-item > .badge {
+    float: none;
+    margin-left: 15px;
+}
+.form-control {
+    display: block;
+    width: 55%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 16, 2016, 10:45:50 PM
+    Author     : crescent
+*/
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #757575;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #d7d7D7;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0px 2px 4px 0 rgba(156,156,156,0.5);
+}
+body{
+    padding-top: 100px;
+    font-family: "Product Sans",Arial,sans-serif;
+}
+@media(min-width: 1200px){
+    .container{
+        width: 920px;
+    }
+}
+.navbar{
+    border-bottom: none;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: transparent;
+    /*    box-shadow: 0px 2px 4px 0 rgba(156,156,156,0.5);*/
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #000;
+    background-color: transparent;
+    border-bottom: 2px solid #4285F4;
+}
+.navbar-default .navbar-nav > .contact > a, .navbar-default .navbar-nav > .contact > a:focus, .navbar-default .navbar-nav > .contact > a:hover{
+    color: #fff;
+    background-color: #4285F4;
+    border-bottom: 2px solid #4285F4;
+}
+.contact{
+    margin-right: 15px;
+}
+
+
+
+.twitter{
+    margin-right: 0;
+}
+.display-inline{
+    display: inline-block;
+}
+.sep{
+    height: 30px;
+}
+
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #000;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid transparent;
+    font-weight: bold;
+    border-bottom-color: #ddd;
+    padding: 5px 20px;
+}
+.nav-tabs > li {
+    width: 50%;
+}
+.nav-tabs > li > a{
+    border-radius: 0;
+}
+.twitter .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 5px 20px;
+}
+.twitter .nav > li > a:focus, .twitter .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #000;
+    padding: 5px 20px;
+}
+.twitter .nav > li > a.b-right{
+    border-right: 1px solid #ddd;
+}
+
+
+
+h2{
+    color: #757575;
+    font-size: 17px;
+}
+#music-view h2{
+    color: #000000;
+    font-size: 17px;
+}
+#music-view h3{
+    color: #000000;
+    font-size: 14px;
+}
+#music-view blockquote {
+    color: #292f33;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-left: 5px solid #D7D7D7;
+}
+article{
+    padding-bottom: 20px;
+}
+article:first-child h1{
+    margin-top: -15px;
+}
+article h1{
+    margin-top: 0;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+article h1 a{
+    color: #45494e;
+    font-size: 23px;
+}
+article h1 a:focus, article h1 a:hover{
+    text-decoration: none;
+}
+.article-meta{
+    color: #888;
+    font-size: 13px;
+}
+article .media-object {
+    display: block;
+    width: 300px;
+    height: 180px;
+    background: #f7f7f7;
+    border-radius: 2px;
+}
+article p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #292f33;
+}
+.read-more-div{
+    margin-top: 20px;
+}
+.read-more{
+    font-weight: bold;
+}
+
+.navbar-header {
+    float: none;
+    padding: 15px;
+    text-align: center;
+}
+.navbar-brand{
+    float: none;
+}
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-bottom: 10px;
+}
+input[type="file"] {
+    display: block;
+    padding: 0px;
+}
+.js-poster-image{
+    width: 100%;
+}
+.g-cell{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+article{
+    padding: 20px;
+    box-shadow: 0px 8px 4px 0 rgba(156,156,156,0.5);
+}
+
+
+.footer{
+    margin-top: 70px;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+}
+
+
+ul.tags li{
+    padding: 3px 20px;
+    text-transform: none;
+}
+ul > li > a > span{
+    color: #999;
+}
+
+
+
+.ryhmes-filter{
+    border: 1px solid #D7D7D7;
+    border-radius: 6px;
+    display: inline-block;
+}
+.ryhmes-filter button{
+    border: none;
+    background: #fff;
+    font-size: 13px;
+    padding: 5px;
+    border-right: 1px solid #D7D7D7;
+    margin-left: -6px;
+}
+.ryhmes-filter button:first-child{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 0px;
+}
+.ryhmes-filter button:last-child{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-right: none;
+}
+.ryhmes-filter button:focus, .ryhmes-filter button:hover{
+    background-color: #D7D7D7;
+    color: #333;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-toggle {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+
+.tab-content{
+    padding: 10px 0;
+}
+.list-decimal{
+    list-style: decimal;
+}
+.tags{
+    margin-left: -27px;
+}
+ul > li > a > span {
+    color: #999;
+}
